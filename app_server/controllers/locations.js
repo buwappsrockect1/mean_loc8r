@@ -2,7 +2,7 @@
 
 // index (Homepage) controller
 const homeList = function(req, res, next) {
-    res.render('index', { title: 'HomeList' });
+    res.render('locations-list', { title: 'HomeList' });
 };
 
 // location info
