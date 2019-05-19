@@ -2,7 +2,13 @@
 
 // index (Homepage) controller
 const homeList = function(req, res, next) {
-    res.render('locations-list', { title: 'HomeList' });
+    res.render('locations-list', { 
+        title: 'Loc8r - Find a place to work with WiFi' ,
+        pageHeader: {
+            title:      'Loc8r' ,
+            strapLine:  'Find places to work with wifi near you!'
+        }
+    });
 };
 
 // location info
