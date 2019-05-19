@@ -7,12 +7,12 @@ const homeList = function(req, res, next) {
 
 // location info
 const locationInfo = function(req, res, next) {
-    res.render('index', { title: 'LocationInfo' });
+    res.render('location-info', { title: 'Location Info' });
 };
 
 // add review
 const addReview = function(req, res, next) {
-    res.render('index', { title: 'AddReview' });
+    res.render('location-review-form', { title: 'Add Review' });
 };
 
 module.exports = {
